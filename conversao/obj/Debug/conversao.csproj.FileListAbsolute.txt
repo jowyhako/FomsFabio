@@ -1,0 +1,10 @@
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\bin\Debug\conversao.exe.config
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\bin\Debug\conversao.exe
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\bin\Debug\conversao.pdb
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.csproj.AssemblyReference.cache
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.Form1.resources
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.Properties.Resources.resources
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.csproj.GenerateResource.cache
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.csproj.CoreCompileInputs.cache
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.exe
+C:\Users\bmo\Downloads\EXERCICIOS\conversao\obj\Debug\conversao.pdb

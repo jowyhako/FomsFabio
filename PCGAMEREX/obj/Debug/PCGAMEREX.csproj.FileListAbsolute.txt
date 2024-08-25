@@ -1,0 +1,10 @@
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\bin\Debug\PCGAMEREX.exe.config
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\bin\Debug\PCGAMEREX.exe
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\bin\Debug\PCGAMEREX.pdb
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.csproj.AssemblyReference.cache
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.Form1.resources
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.Properties.Resources.resources
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.csproj.GenerateResource.cache
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.csproj.CoreCompileInputs.cache
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.exe
+C:\Users\bmo\Downloads\EXERCICIOS\PCGAMEREX\obj\Debug\PCGAMEREX.pdb
