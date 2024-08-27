@@ -1,0 +1,10 @@
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\bin\Debug\TabelaKM.exe.config
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\bin\Debug\TabelaKM.exe
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\bin\Debug\TabelaKM.pdb
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.csproj.AssemblyReference.cache
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.Form1.resources
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.Properties.Resources.resources
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.csproj.GenerateResource.cache
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.csproj.CoreCompileInputs.cache
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.exe
+C:\Users\bmo\Downloads\EXERCICIOS\TabelaKM\obj\Debug\TabelaKM.pdb

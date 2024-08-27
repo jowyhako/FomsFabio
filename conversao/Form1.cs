@@ -15,9 +15,9 @@ namespace conversao
         public Form1()
         {
             InitializeComponent();
-            // Mudando a cor de fundo do formulário para preto
+            
             this.BackColor = Color.Black;
-            // Mudando a cor das letras para dourado
+            
             this.ForeColor = Color.Gold;
         }
 
