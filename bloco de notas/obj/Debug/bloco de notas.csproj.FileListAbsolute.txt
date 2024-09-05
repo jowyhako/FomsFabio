@@ -8,3 +8,13 @@ C:\Users\bmo\source\repos\bloco de notas\obj\Debug\bloco de notas.csproj.Generat
 C:\Users\bmo\source\repos\bloco de notas\obj\Debug\bloco de notas.csproj.CoreCompileInputs.cache
 C:\Users\bmo\source\repos\bloco de notas\obj\Debug\bloco de notas.exe
 C:\Users\bmo\source\repos\bloco de notas\obj\Debug\bloco de notas.pdb
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\bin\Debug\bloco de notas.exe.config
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\bin\Debug\bloco de notas.exe
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\bin\Debug\bloco de notas.pdb
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco de notas.csproj.AssemblyReference.cache
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco_de_notas.Form1.resources
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco_de_notas.Properties.Resources.resources
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco de notas.csproj.GenerateResource.cache
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco de notas.csproj.CoreCompileInputs.cache
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco de notas.exe
+C:\Users\bmo\Downloads\EXERCICIOS\bloco de notas\obj\Debug\bloco de notas.pdb

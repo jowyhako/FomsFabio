@@ -1,0 +1,92 @@
+Possiveis soluções 
+private void GravarCupomFiscal()
+{
+    string fileName = $"CF{cupomFiscal:D4}.txt"; // Exemplo: CF0001.txt
+
+    // Abrir arquivo e gravar o conteúdo de forma simplificada
+    try
+    {
+        using (StreamWriter sw = new StreamWriter(fileName))
+        {
+            sw.WriteLine($"Cupom Fiscal Nº: {cupomFiscal}");
+            sw.WriteLine("Itens:");
+            foreach (var item in lstItensCupom.Items)
+            {
+                sw.WriteLine(item.ToString());
+            }
+            sw.WriteLine($"Total de itens: {totalItensComprados}");
+            sw.WriteLine($"Total: R$ {SomatorioProdutos:n2}");
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Erro ao gravar o cupom: {ex.Message}");
+    }
+}
+
+===========================================================================
+private void button2_Click(object sender, EventArgs e)
+{
+    // Aqui você finaliza a compra e chama o método simplificado de gravação
+    GravarCupomFiscal();
+    
+    MessageBox.Show("Compra finalizada e cupom gravado!");
+}
+============================================================================
+private void btnPesquisa_Click(object sender, EventArgs e)
+{
+    string codigoBarras = txtCodigoBarras.Text;
+    bool produtoEncontrado = false;
+
+    try
+    {
+        foreach (var linha in System.IO.File.ReadLines("Estoque.txt"))
+        {
+            var dadosProduto = linha.Split('|');
+            if (dadosProduto[0].Trim() == codigoBarras)
+            {
+                txtDescricao.Text = dadosProduto[1].Trim();
+                txtPrecoUnitario.Text = dadosProduto[2].Trim();
+                produtoEncontrado = true;
+                break;
+            }
+        }
+
+        if (!produtoEncontrado)
+        {
+            DialogResult result = MessageBox.Show("Produto não encontrado. Deseja cadastrar?", "Produto não encontrado", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                CadastrarProduto(); // Simples função para cadastrar produto
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Erro ao procurar produto: {ex.Message}");
+    }
+}
+=========================================================================
+private void CadastrarProduto()
+{
+    string novoProduto = $"{txtCodigoBarras.Text} | {txtDescricao.Text} | {txtPrecoUnitario.Text}";
+
+    try
+    {
+        System.IO.File.AppendAllText("Estoque.txt", novoProduto + Environment.NewLine);
+        MessageBox.Show("Produto cadastrado com sucesso!");
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Erro ao cadastrar produto: {ex.Message}");
+    }
+}
+==========================================================================
+private void txtQuantidade_KeyPress(object sender, KeyPressEventArgs e)
+{
+    if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+    {
+        e.Handled = true; // Impede a digitação de letras
+    }
+}
+==========================================================================
